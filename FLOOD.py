@@ -6,6 +6,7 @@ import threading
 import time
 
 #ya this version of the script floods the site, don't run it
+#http://i.imgur.com/Nq8kAFN.png
 
 class worker(threading.Thread):
 	def run(self):
