@@ -4,7 +4,7 @@ import requests
 import random
 
 def upload(image):
-	with open('useragents.txt', 'rb') as u:
+	with open('useragents.txt', 'r') as u:
 		useragent = random.choice(u.read().splitlines())
 	headers = {'user-agent':useragent}
 	payload = {'image':image}
