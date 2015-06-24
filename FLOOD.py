@@ -5,6 +5,8 @@ import random
 import threading
 import time
 
+#ya this version of the script floods the site, don't run it
+
 class worker(threading.Thread):
 	def run(self):
 		image = '381.jpg' #filename here
