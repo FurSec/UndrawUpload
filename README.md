@@ -1,8 +1,3 @@
 # UndrawUpload
-A script for uploading images to undraw.it
 
-Requires requests to be installed (pip install requests).
-
-Usage: undrawupload.py [image]
-
-Example: undrawupload.py PrettyPicture.jpg
+This script is currently outdated and will not work. As of now, it's still currently possible to upload images, but you need to send a unique cookies and headers to upload images, and I'm too lazy to continuously update it here.
